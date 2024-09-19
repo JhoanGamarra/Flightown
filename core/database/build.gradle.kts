@@ -1,11 +1,10 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    alias(libs.plugins.compose.compiler)
 }
 
 android {
-    namespace = "com.jhoangamarra.core.presentation.ui"
+    namespace = "com.jhoangamarra.core.database"
     compileSdk = 34
 
     defaultConfig {
@@ -41,8 +40,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
-
-    implementation(projects.core.domain.main)
-    implementation(projects.core.presentation.designsystem)
 }

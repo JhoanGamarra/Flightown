@@ -67,4 +67,27 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+
+    implementation(projects.core.presentation.ui)
+    implementation(projects.core.presentation.designsystem)
+    implementation(projects.core.data)
+    implementation(projects.core.domain.main)
+    implementation(projects.core.database)
+
+    implementation(projects.auth.presentation)
+    implementation(projects.auth.domain)
+    implementation(projects.auth.data)
+
+    implementation(projects.quiz.domain)
+    implementation(projects.quiz.data)
+    implementation(projects.quiz.presentation)
+
+    implementation(projects.course.presentation)
+    implementation(projects.course.data)
+    implementation(projects.course.domain)
+
+    implementation(projects.training.data)
+    implementation(projects.training.domain)
+    implementation(projects.training.presentation)
 }

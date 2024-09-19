@@ -19,6 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 rootProject.name = "flightown"
 include(":app")
 include(":core:data")
@@ -37,3 +38,4 @@ include(":course:domain")
 include(":training:data")
 include(":training:presentation")
 include(":training:domain")
+include(":core:database")

@@ -41,4 +41,11 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    //Modules
+
+    implementation(projects.auth.domain)
+    implementation(projects.core.domain.main)
+    implementation(projects.core.data)
+
 }
